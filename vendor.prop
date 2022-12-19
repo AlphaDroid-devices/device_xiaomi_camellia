@@ -68,6 +68,9 @@ vendor.connsys.driver.ready=no
 # ConsumerIr
 ro.hardware.consumerir=common
 
+# Cached app compaction
+persist.device_config.activity_manager.use_compaction=true
+
 # Dalvik
 dalvik.vm.dex2oat64.enabled=true
 ro.sys.fw.dex2oat_thread_count=8
