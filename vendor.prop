@@ -72,6 +72,10 @@ ro.hardware.consumerir=common
 dalvik.vm.dex2oat64.enabled=true
 
 # Display
+ro.config.avoid_gfx_accel=true
+debug.sf.layer_caching_active_layer_timeout_ms=1000
+debug.sf.enable_egl_image_tracker=0
+debug.sf.latch_unsignaled=0
 debug.mediatek.appgamepq_compress=1
 debug.sf.disable_client_composition_cache=1
 debug.sf.enable_gl_backpressure=1
